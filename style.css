@@ -24,6 +24,11 @@ h1 {
 	text-align: center;
 }
 
+h4 {
+	font-size: 24px;
+	text-align: center;
+}
+
 p {
 	font-size: 14px;
 }
@@ -43,7 +48,7 @@ input {
 .btn {
 	margin-top: 10px;
 	margin-bottom: 5px;
-	width: 40%;
+	width: 100%;
 }
 
 .contact-info {
