@@ -15,14 +15,9 @@ body {
 	align-items: center;
 	padding: 10px;
 	background: #8ec7ef;
-	font-family: "Poppins", sans-serif;
-
+	font-family: "Oswald", cursive;
 }
 
-.container {
-	margin-top: 9em;
-	padding-top: 20px;
-}
 
 h1 {
 	font-size: 1.7em;
@@ -39,15 +34,11 @@ p {
 	justify-content: space-evenly;
 }
 
-input {
-	/* margin-top: -10px; */
+.form-control {
 	opacity: 0.4;
 	outline: 1px solid grey;
-}
-
-#comment {
-	opacity: 0.4;
-	outline: 1px solid grey;
+	width: 100%;
+	box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 
 .col-sm-6 {
@@ -59,14 +50,17 @@ input {
 }
 
 .btn {
-	margin-top: 10px;
-	margin-bottom: 5px;
-	width: 100%;
+	color: black;
 	background-color: #8093f1;
+	width: 100%;
+	font-size: 25px;
 }
 
 .btn:hover {
 	background-color: #4154b7;
+	color: white;
+	transition: 500ms;
+	border: 1px solid black;
 }
 
 .contact-info {
@@ -84,4 +78,8 @@ footer h5 {
 	font-size: 0.8rem;
 	text-align: center;
 	margin-top: 10px;
+}
+
+.selection {
+	font-size: 18px;
 }

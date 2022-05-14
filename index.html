@@ -34,8 +34,71 @@
             </p>
           </div>
         </div>
+
         <div class="col-md-8">
-          <form
+          <form name="contact" method="POST" data-netlify="true">
+            <p>
+              <input
+                class="form-control"
+                type="text"
+                name="name"
+                placeholder="Name"
+              />
+            </p>
+            <p>
+              <input
+                class="form-control"
+                type="email"
+                name="email"
+                placeholder="Email"
+              />
+            </p>
+            <p>
+              <input
+                class="form-control"
+                type="text"
+                name="phone"
+                placeholder="Phone Number"
+              />
+            </p>
+
+            <p>
+              <textarea
+                class="form-control"
+                name="message"
+                placeholder="Additional Information"
+              ></textarea>
+            </p>
+            <p>
+              <input type="checkbox" id="health" name="health" value="health" />
+              <label class="selection" for="health">
+                Health - Decreasing Oxidative Stress</label
+              ><br />
+              <input
+                type="checkbox"
+                id="mystery"
+                name="mystery"
+                value="mystery"
+              />
+              <label class="selection" for="mystery">
+                NEW Mystery Product - Glowing Skin</label
+              ><br />
+              <input
+                type="checkbox"
+                id="Opportunity"
+                name="Opportunity"
+                value="opportunity"
+              />
+              <label class="selection" for="Opportunity">
+                Opportunity - Make Some Money!</label
+              >
+            </p>
+            <p>
+              <button class="btn" type="submit">Send Me The Info</button>
+            </p>
+          </form>
+
+          <!-- <form
             class="contact-form"
             name="contact"
             method="POST"
@@ -128,7 +191,7 @@
                 </button>
               </div>
             </div>
-          </form>
+          </form> -->
         </div>
       </div>
       <footer>
