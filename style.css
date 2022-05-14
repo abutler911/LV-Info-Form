@@ -19,23 +19,34 @@ body {
 
 }
 
+.container {
+	margin-top: 9em;
+}
+
 h1 {
-	font-size: 30px;
+	font-size: 2em;
 	text-align: center;
 }
 
 h4 {
-	font-size: 24px;
+	font-size: 1em;
 	text-align: center;
 }
 
 p {
-	font-size: 14px;
+	font-size: 0.8em;
 	justify-content: space-evenly;
 }
 
 input {
-	margin-top: -10px;
+	/* margin-top: -10px; */
+	opacity: 0.4;
+	outline: 1px solid grey;
+}
+
+#comment {
+	opacity: 0.4;
+	outline: 1px solid grey;
 }
 
 .col-sm-6 {
@@ -50,15 +61,26 @@ input {
 	margin-top: 10px;
 	margin-bottom: 5px;
 	width: 100%;
+	background-color: #8093f1;
+}
+
+.btn:hover {
+	background-color: #4154b7;
 }
 
 .contact-info {
 	padding: 5px;
-	font-size: 20px;
+	font-size: 1.4em;
 
 }
 
 .checkbox {
 	font-size: 18px;
 	margin: 5px;
+}
+
+footer h5 {
+	font-size: 0.8rem;
+	text-align: center;
+	margin-top: 10px;
 }
