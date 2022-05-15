@@ -13,6 +13,9 @@ body {
 	align-items: center;
 	padding: 10px;
 	background: #8ec7ef;
+	background-image: url("/20220503_162215.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
 	/* font-family: "Poppins", sans-serif; */
 }
 
