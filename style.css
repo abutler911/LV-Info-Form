@@ -13,7 +13,7 @@ body {
 	align-items: center;
 	padding: 10px;
 	background: #8ec7ef;
-	font-family: "Poppins", sans-serif;
+	/* font-family: "Poppins", sans-serif; */
 }
 
 .container {
@@ -96,5 +96,6 @@ footer h5 {
 }
 
 #info-container p {
-	font-size: 1em;
+	font-size: 1.6em;
+	text-align: center;
 }
