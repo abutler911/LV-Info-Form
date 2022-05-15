@@ -10,13 +10,11 @@ body {
 	justify-content: center;
 	align-items: center;
 	padding: 10px;
-	background: rgba(0, 0, 0, 0.4) url("/20220503_162215.jpg");
-	/* background-image: url("/20220503_162215.jpg"); */
+	background: black;
+	background-image: url("/background1.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: -200px;
-	background-blend-mode: luminosity;
-
 }
 
 .container {
