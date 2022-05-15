@@ -30,6 +30,7 @@ h1 {
 	font-size: 1.5em;
 	text-align: center;
 	color: black;
+	font-weight: 700;
 }
 
 #instructions {
@@ -60,8 +61,8 @@ p {
 }
 
 .btn {
-	color: black;
-	background-color: #93daf7;
+	color: white;
+	background-color: #2752df;
 	opacity: 0.8;
 	width: 100%;
 	font-size: 25px;
@@ -70,7 +71,7 @@ p {
 
 .btn:hover {
 	color: black;
-	background-color: #4154b7;
+	background-color: #6c78b4;
 	transition: 500ms;
 }
 
