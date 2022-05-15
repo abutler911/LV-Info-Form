@@ -16,6 +16,7 @@ body {
 	background-image: url("/20220503_162215.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
+	background-position: -240px;
 	/* font-family: "Poppins", sans-serif; */
 }
 
