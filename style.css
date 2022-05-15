@@ -7,16 +7,15 @@
 }
 
 body {
-
-	/* height: 100vh; */
 	justify-content: center;
 	align-items: center;
 	padding: 10px;
-	background: #8ec7ef;
+	background: black;
 	background-image: url("/20220503_162215.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: -200px;
+
 }
 
 .container {
@@ -24,18 +23,14 @@ body {
 	padding: 5px;
 	/* border-radius: 7px; */
 	/* box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px; */
+
 }
+
 
 h1 {
-	font-size: 2.5em;
-	text-align: center;
-	color: white;
-}
-
-h4 {
 	font-size: 1.5em;
 	text-align: center;
-	color: white;
+	color: black;
 }
 
 #instructions {
@@ -100,5 +95,5 @@ p {
 #info-container p {
 	font-size: 0.9em;
 	text-align: center;
-	color: white;
+	color: black;
 }
